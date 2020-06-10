@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<style>
+	body{
+	background-image: url("im2.jpg");
+	background-size:cover;
+	background-position:center;
+	font-family:arial;
+	background-repeat:norepeat;
+	height:100vh;
+}
+.wrap{
+	max-width:400px;
+	border-radius:25px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top:100px;
+}
+h2{
+	text-align:center;
+}
+input[type=text],input[type=password],input[type=email]{
+	width:100%;
+	box-sizing:border-box;
+	padding:12px 5px;
+	background:rgba(0,0,0,0.10);
+	outline:none;
+	border:none;
+	border-bottom:1px dotted #fff;
+	color:#fff;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;
+	
+}
+
+	 input[type='radio']{
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -1px;
+        left: -1px;
+        position: relative;
+        background-color:black;
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+   input[type=submit]{
+	width:100%;
+	box-sizing:border-box;
+	padding:10px 0;
+	margin-top:30px;
+	outline:none; 
+	border:none;
+	background:#60adde;
+	opacity:0.7;
+	border-radius:20px;
+	font-size:20px;
+	color:#fff;
+		
+}
+input[type=submit]:hover{
+	background-color:#003366;
+	opacity:0.7;
+}
+input[type=reset]{
+	width:20%;
+	box-sizing:border-box;
+	padding:5px 0;
+	margin-top:7px;
+	outline:none;
+	border:none;
+	background-color:darkyellow;
+	opacity:0.7;
+	border-radius:10px;
+	font-size:15px;
+	color:#000;
+		
+}
+input[type=reset]:hover{
+	background-color:red;
+	opacity:0.7;
+}
+input[type=button]{
+	width:20%;
+	box-sizing:border-box;
+	padding:5px 0;
+	margin-top:7px;
+	outline:none;
+	align:right;
+	border:none;
+	background-color:darkyellow;
+	opacity:0.7;
+	border-radius:10px;
+	font-size:15px;
+	color:#000;
+		
+}
+input[type=button]:hover{
+	background-color:red;
+	opacity:0.7;
+}
+
+</style>
+	</head>
+	<body>
+		
+		
+		<div class="wrap">
+			<h2>BOOK-BUS</h2>
+			<form name="myform" method="post" action="./bookseat.jsp">
+			<input type="text" name="cname" placeholder="USER-NAME"><br>
+			
+<input type="text" name="source" placeholder="SOURCE"><br>
+<input type="text" name="destination" placeholder="DESTINATION"><br><br>
+&nbsp&nbsp<STRONG>DATE:<input type="date" name="date" palceholder="DATE"><br></STRONG><br><br>
+<input type="submit" value="SEARCH-BUSES">
+
+			</form>
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,27 @@
+.search-widget {
+    float: left;
+    position: relative;
+    top: 13%;
+    left: 12.5%;
+    width: 75%;
+    height: 46.2px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.18);
+    border: 1px solid #aeaeae;
+    z-index: 10;}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lato,sans-serif;
+}
+.search-input-wrap {
+    display: inline-block;
+    width: 21%;
+    height: 100%;
+    border-right: 1px solid #aeaeae;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato,sans-serif;
+}
